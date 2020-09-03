@@ -1,0 +1,1000 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+   box-sizing: border-box;
+}
+
+label{
+    color: white;
+    display: none;
+    
+}
+
+#toggle{
+    display: none;
+}
+
+.nav{
+    text-align: right;
+    margin-top: 1rem;
+    padding: 2rem;
+    background: black;
+    height: auto;
+    z-index: 12;
+    position: relative;
+}
+
+.menu{
+    margin: 0 30px 0 0;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    color: white;
+    margin-left: 2rem;
+    display: inline-block;
+}
+
+.menu ul li .more-nav{
+    display: none;
+}
+
+.menu ul li:hover .more-nav{
+    display: block;
+    position: absolute;
+    transition: all 2s ease-in-out 2s;
+    margin-left: -10rem;
+    background: rgb(112, 110, 110,0.5);
+    padding: 5px;
+    width: 22rem;
+}
+
+.menu ul li a:hover{
+    color: gold;
+    transition: all 1s;
+}
+
+.menu ul li:hover .more-nav li{
+    display: block;
+    margin-top: 20px;
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+header{
+    height: 100vh;
+}
+
+p{
+    color: rgb(209, 200, 200);
+    line-height: 1.5rem;
+}
+
+header h1{
+    float: left;
+    margin-top: .5rem;
+    color: white;
+    margin-left: 1rem;
+    position: relative;
+    z-index: 20;
+}
+
+/* header image */
+header img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
+/* Header-note */
+
+.header-note{
+    position: absolute;
+    top:10rem;
+    left: 1rem;
+}
+
+.note-one{
+    color: gold;
+    background: white;
+    font-size: xx-large;
+    padding: 1rem;
+}
+
+.note-two{
+    margin-top: 1rem;
+    color: white;
+    background: rgb(21, 21, 29);
+    font-size: x-large;
+    padding: 1rem; 
+    width: 20rem;
+}
+
+.note-three{
+    margin-top: 1rem;
+    color: midnightblue;
+    background: gold;
+    font-size: xx-large;
+    padding: 1rem;
+}
+
+/* Brief on Job */
+
+.brief{
+    display: flex;
+    padding: 5rem;
+}
+
+.brief img{
+    width: 30rem;
+    height: 25rem;
+    object-fit: cover;
+    box-shadow: 0px 15px 20px rgba(197, 197, 193, 0.664);
+}
+
+
+
+.welcome{
+    color: gold;
+}
+
+h4{
+    margin-bottom: 1rem;
+}
+
+.welcome h1{
+    color: rgb(21, 21, 29);
+    
+}
+
+.welcome-section{
+    margin-left: 3rem;
+}
+
+
+.brief-info{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.brief-text{
+    margin-bottom: 1rem;
+    color: rgb(21, 21, 29);
+    margin-top: .4rem;
+}
+
+.brief-note{
+    margin-left: 1rem;
+    border-bottom: 1px solid rgb(185, 182, 182);
+    padding-bottom: 3rem;
+}
+
+.brief-note p{
+    margin-bottom: 1rem;
+}
+
+.brief-note button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    margin-left:0px;
+    margin-top: 2rem;
+    background: rgb(122, 117, 117);
+    width: 10rem;
+    color: white;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    text-align: center; 
+}
+
+.brief-note button:hover{
+    background-color: gold;
+    box-shadow: 0px 15px 20px rgba(248, 252, 50, 0.664);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+/* Call To Action Section-*/
+
+
+#call-to-action{
+    display: flex;
+    height: 60vh;
+    padding: 2rem;
+   
+}
+
+#call-to-action img{
+    width: 40%;
+    height: 70%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0px;
+    left: 0px;
+    margin-right: 2rem;
+    box-shadow: 10px 15px 20px rgba(212, 212, 208, 0.664);
+}
+
+  #call-to-action h3 {
+    color: rgb(21, 21, 29);
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 2rem;
+  }
+
+
+.text-center p{
+    padding: 2rem;
+    color: rgb(212, 206, 206);
+    font-size: 17px;
+
+}
+
+.text-center h4{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+  #call-to-action .cta-btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    background: rgb(122, 117, 117);
+    width: 15rem;
+    padding: 7px;
+    color: white;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+  }
+
+
+  #call-to-action .cta-btn:hover {
+    background-color: gold;
+    box-shadow: 0px 15px 20px rgba(248, 252, 50, 0.664);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+
+  .call-to-action-list{
+      margin-top: 2rem;
+      list-style: none;
+  }
+
+  .call-to-action-list li{
+      margin-left: 2rem;
+  }
+/*services */
+
+#services {
+    background: #fff;
+    background-size: cover;
+    padding: 2rem ;
+    height: auto;
+
+  }
+
+.service-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 4px;
+    margin-top: 2rem;
+}
+
+.description{
+    line-height: 1.5rem;
+    width: 20rem;
+}
+
+.box-row{
+    display: flex;
+    background: rgb(235, 232, 232);
+    padding: 2rem 1rem 2rem 1rem;
+    height: 15rem;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: white;
+    
+}
+
+.service-header{
+    text-align: center;
+}
+
+.service-header h1{
+  margin-bottom: 2rem;
+  color: rgb(21, 21, 29);
+}
+
+.service-text{
+    width: 60rem;
+    margin: auto;
+}
+
+.caption-row{
+    margin-left: 1.4rem;
+    margin-top: 0.4rem;
+}
+
+.title a {
+    color: rgb(21, 21, 29);
+    text-decoration: none;
+  }
+
+.caption-row:hover .title a {
+    color: gold;
+  }
+
+  
+  /* Our team */
+
+.our-team{
+    background:url("team.jpg") center top no-repeat fixed ;
+    height: 80vh;
+    text-align: center;
+    background-size: cover;
+    position: relative;
+}
+
+.our-team::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.92);
+    z-index: 9;
+  }
+
+.our-team h2{
+    color: rgb(21, 21, 29);
+    font-size: xx-large;
+}
+
+.status{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+}
+
+.status span{
+    font-weight: bolder;
+    font-size: 50;
+    color: gold;
+}
+
+#records{
+    color: gold;
+}
+
+.status-info button{
+    color: gold;
+    background: transparent;
+    font-size: xx-large;
+    font-weight: bolder;
+    border: .3rem solid gold;
+    border-radius: 100% ;
+    padding: 4rem;
+}
+
+.our-team-tint{
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    position: relative;
+    padding: 2rem;
+}
+
+.our-team-tint h1{
+    color: gold;
+    font-weight: 200;
+    margin-top: 4rem;
+}
+
+
+
+/* Why Us Section */
+
+.why-us{
+    height: auto;
+    background-color: rgb(21, 21, 29) ;
+}
+
+.why-us-section{
+    display: flex;
+    padding: 4rem;
+}
+
+.why-us p{
+    line-height: 1.5rem;
+}
+
+.why-us-note{
+    display: flex;
+    margin-top: 4rem;
+}
+
+.why-us-section img{
+    width: 550px;
+    height: 400px;
+    margin-left: 5rem;
+}
+
+.why-us-note-under-img{
+    margin-left: 5rem;
+    display: flex;
+    margin-top: 4rem;
+    color: white;
+}
+.why-us-left h4{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+.why-us-btn{
+    margin-left: 4rem;
+    border: 1px solid black;
+    margin-top: 2rem;
+    background: rgb(122, 117, 117);
+    width: 15rem;
+    padding: 7px;
+    color: white;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.why-us-btn:hover{
+    background-color: gold;
+    box-shadow: 0px 15px 20px rgba(248, 252, 50, 0.664);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.why-us-left h1{
+    font-size: xx-large;
+    color: white;
+}
+
+.why-us-caption{
+    margin-left: 1rem;
+    margin-top: 0.2rem;
+    border-bottom: 1px solid rgb(133, 132, 132);
+}
+
+.why-us-caption p{
+    width: 25rem;
+    padding-bottom: 2rem;
+    font-size: 15px;
+}
+
+/* last-section */
+.last-section{
+    height: 80vh;
+}
+
+
+/*last section */
+.last-section{
+    margin-bottom: 2rem;
+}
+.last-section-content{
+    padding: 3rem 0rem 10rem 3rem;
+    width: 100%;
+    height: auto;
+    
+}
+
+.last-section h3{
+    color: rgb(17, 16, 16) ;
+    margin-bottom: 3rem;
+}
+
+
+
+
+.last-section p{
+    color: rgb(133, 132, 132);
+    line-height: 1.5rem;
+}
+
+.features{
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    
+}
+
+.features ul{
+    list-style: none;
+}
+
+.features ul li{
+    margin-top: 1rem;
+}
+/* footer */
+
+.footer-section{
+    display: flex;
+    padding: 3rem 4rem 3rem 4rem;
+    background: rgb(22, 21, 21);
+}
+
+.info{
+    width: 22rem;
+    margin-right: 2rem;
+}
+
+.FooterPage{
+    margin-bottom: 2.1rem;
+    padding-left: 0.7rem;
+    border-left: 4px solid rgb(116, 235, 151);
+    letter-spacing: 2px;
+    
+}
+
+
+.info h1{
+    color: white;
+    font-weight: 1000;
+    font-family: "Montserrat", sans-serif;
+    font-size: x-large;
+    letter-spacing: 2px;
+}
+
+.info h4{
+    border-bottom:2px  solid grey;
+    margin-bottom: 1.5rem;
+    padding-bottom: 10px;
+    color: white;
+}
+
+footer .info ul{
+    margin-left: rem;
+    list-style: none;
+}
+
+footer .info ul li{
+    padding: 0.7rem;
+    border-bottom: 1px solid grey;
+    color: rgb(240, 243, 245);
+    font-size: 16px;
+    margin-left: 0rem;
+}
+
+.info p{
+    margin-top: 2rem;
+    color: rgb(240, 243, 245);
+    line-height: 1.5rem;
+    font-size: 14px;
+    
+}
+
+.add{
+    line-height: 2rem;
+}
+.bottom{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+}
+
+.sub{
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.sub input{
+    height: 2rem;
+    width: 15rem;
+    border-radius: 45px;
+    border: none;
+    padding: 2px;
+}
+
+.subscribe{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    margin-top: 2rem;
+    background: rgb(122, 117, 117);
+    width: 15rem;
+    padding: 7px;
+    color: white;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+}
+
+.subscribe:hover{
+    background-color: gold;
+    box-shadow: 0px 15px 20px rgba(248, 252, 50, 0.664);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.info ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.info ul li a:hover{
+    color: gold;
+}
+
+
+/* About us */
+.about-swift{
+    padding: 2rem;
+    box-shadow: r;
+}
+
+.about-swift h3{
+    font-family:"Montserrat", sans-serif;
+    font-size: xx-large;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.about-swift h3 a{
+    font-size: small;
+    color: gold;
+    text-decoration: none;
+    float: right;
+}
+
+.aboutswift{
+    box-shadow: 10px 15px 20px rgba(212, 212, 208, 0.664);
+    padding: 4rem;
+    background: rgb(46, 45, 45);
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    text-align: center;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+  @media only screen and (max-width: 800px) {
+     label{
+         display: block;
+         cursor: pointer;
+     }
+
+     .menu{
+         text-align: center;
+         width: 100%;
+         display: none;
+     }
+
+     .menu ul li{
+         display: block;
+     }
+
+     #toggle:checked + .menu{
+         display: block;
+         margin-top: 1rem;
+         margin-left: -2rem;
+     }
+
+     #toggle:checked + .menu li{
+        padding: 1rem;
+        display: block;
+        width: 100%;
+     }
+
+     header h1{
+         font-size: medium;
+     }
+
+    header h1 i{
+        font-size: 20px;
+    }
+
+    .menu ul li:hover .more-nav{
+        display: block;
+        position: relative;
+       margin: auto;
+        background: none;
+    }
+
+
+    .menu ul li:hover .more-nav li{
+        display: block;
+        text-align: center;
+        margin-top: 3px;
+        background: rgb(116, 114, 114);
+        margin-left: -.08rem;
+        width: 100%;
+    }
+
+    header .header-image{
+        width: 100%;
+        height: 250px;
+    }
+
+    header .header-note h2 {
+        font-size: small;
+    }
+
+    header{
+        height: 40vh;
+    }
+
+    /* brief */
+    .brief{
+        margin-top: 3rem;
+        display: block;
+        padding: 0;
+    }
+
+    .brief img{
+        width: 100%;;
+        height: 15rem;
+        display: block;
+        box-shadow: 0px 15px 25px rgba(197, 197, 193, 0.664);
+        margin-top: 2rem;
+    }
+    
+    .brief .welcome{
+        display: block;
+    }
+
+    .brief .welcome h4{
+        font-size: medium;
+    }
+
+    .brief .welcome h1{
+        font-size: small;
+    }
+
+    .welcome-section{
+        padding: 0;
+        margin-left: 0;
+          
+        }
+    .brief-info {
+        text-align: center;
+        box-shadow:20px 10px 10px 10px rgba(197, 197, 193, 0.664);
+        height: auto;
+        margin-left: 0;
+        width: 100%;
+        padding: 1rem;
+        display: block;
+        
+    }
+
+    .brief-info p{
+        font-size: small;
+    }
+
+    .brief-info h3{
+        font-size: medium;
+    }
+
+    .brief-note{
+        border-bottom: none;
+    }
+    .brief-note button{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 10px;
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 8px 28px;
+        margin-left:0px;
+        background: rgb(122, 117, 117);
+        width: 10rem;
+        color: white;
+        border: none;
+        border-radius: 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+        text-align: center;
+        margin-top: 0;
+    }
+
+
+/* Welcome */
+    #call-to-action{
+        display: block;
+        text-align: center;
+}
+
+    #call-to-action .text-center h3{
+        font-size: small;
+}
+    #call-to-action img{
+        display: none;
+    }
+
+    #call-to-action .cta-btn{
+        display: none;
+ }
+
+ /*services */
+
+    #services{
+        margin-top: 12rem;
+        text-align: center;
+        display: block;
+        padding: 0;
+    }
+
+    #services .service-header h1{
+        font-size: medium;
+    }
+
+    #services .service-header p{
+       display: none;
+    }
+
+
+    .service-row{
+        display: block;
+        margin-top: 0;
+    }
+
+
+    .box-row{
+        text-align: center;
+        box-shadow: 0px 10px 20px rgba(197, 197, 193, 0.664);
+        height: 15rem;
+        margin: 0;
+        width: 100%;
+        padding: 1rem;
+        display: block;
+        margin-top: 1rem;
+        
+    }
+
+    .box-row p{
+        font-size: smaller;
+    }
+
+    /* our team */
+
+    .our-team{
+        display: none;
+    }
+
+
+/* why us */
+.why-us{
+    padding-top: 2rem;
+}
+.why-us img{
+    margin: 0;
+    width: 100%;;
+    height: 15rem;
+    display: block;
+    box-shadow: 0px 15px 25px rgba(197, 197, 193, 0.664);
+}
+
+.why-us-section{
+    display: block;
+    padding: 0;
+}
+
+.why-us-note{
+    margin:1rem 0 0 0;
+    padding: 0;
+}
+
+.why-us-caption{
+    width: 100%;
+}
+
+.why-us-caption p{
+    width: fit-content;
+}
+
+.why-us-note-under-img{
+    margin:1rem 0 0 0;
+    padding: 0;
+}
+
+.why-us-btn{
+    display: none;
+}
+
+.why-us-left h1{
+    font-size: small;
+}
+
+
+/*;ast-section */
+.last-section{
+    margin-bottom: 30rem;
+    padding: 1rem;
+ 
+}
+
+
+.last-section-note{
+    font-size: small;
+    margin: 0; 
+}
+
+.last-section-content{
+    padding: 0;
+}
+
+.features li{
+    font-size: 12px;
+    line-height: 1rem;
+}
+
+
+.footer-section{
+    display: block;
+}
+
+ .info h4{
+    margin: 2rem 0 1rem 0;
+}
+
+
+  }
