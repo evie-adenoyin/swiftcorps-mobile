@@ -1,0 +1,261 @@
+header img{
+	object-fit: cover;
+	display: block;
+	width:100%;
+  	height:85vh;
+}
+
+
+.header-note{
+	position: absolute;
+	top: 12rem;
+}
+
+.header-note h2{
+	margin-bottom: 2rem;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .header-note h2 {
+  			display:none
+}
+
+	.header-note {
+		background: rgba(66,61,61);
+	}
+	header img{
+		width: 100%;
+		object-fit: cover;
+		height: 40vh;
+		
+	}
+	.navbar-brand{
+		font-size: 10px;
+	}
+
+
+	.brief .welcome-section{
+		text-align: center;
+	}
+	
+	.brief .welcome{
+		margin: 3rem;
+	}
+	.brief .welcome-section .welcome h4{
+		font-size: small;
+	}
+
+	.brief .welcome-section .welcome h1{
+		font-size: small;
+	}
+
+	.brief img{
+		display: block;
+		width: 100%;
+		object-fit: cover;
+		height: 40vh;
+		box-shadow: 0px 10px 25px rgba(197, 197, 193, 0.664);
+	}
+
+	.brief-info {
+		box-shadow: 0px 10px 25px rgba(197, 197, 193, 0.664);
+		margin-bottom: 2rem;
+		padding: 2rem;
+	}
+
+	.brief button{
+		font-family: "Montserrat", sans-serif;
+		font-weight: 500;
+		text-decoration: none;
+		font-size: 12px;
+		letter-spacing: 1px;
+		display: inline-block;
+		padding: 8px 28px;
+		margin-left:0px;
+		margin-top: 2rem;
+		background: rgb(122, 117, 117);
+		width: 10rem;
+		color: white;
+		border: none;
+		border-radius: 45px;
+		box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+		transition: all 0.3s ease 0s;
+		cursor: pointer;
+		outline: none;
+		text-align: center; 
+	}
+
+	.brief-note button:hover{
+		background-color: gold;
+		box-shadow: 0px 15px 20px rgba(248, 252, 50, 0.664);
+		color: #fff;
+		transform: translateY(-7px);
+	}
+
+	#call-to-action .text-center{
+		text-align: center;
+		font-size: small;
+		padding: 2rem;
+	}
+
+	#call-to-action img{
+		display: none;
+	}
+
+	.call-to-action-list{
+		list-style: none;
+	}
+
+	.call-to-action-list li{
+		margin: auto;
+	}
+
+	.text-center h3,h4{
+		font-size: medium;
+	}
+
+	#call-to-action .cta-btn {
+		font-family: "Montserrat", sans-serif;
+		font-weight: 500;
+		text-decoration: none;
+		font-size: 12px;
+		letter-spacing: 1px;
+		display: inline-block;
+		padding: 8px 28px;
+		margin: 0.5rem;
+		background: rgb(122, 117, 117);
+		width: 15rem;
+		padding: 7px;
+		color: white;
+		border: none;
+		border-radius: 45px;
+		box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+		transition: all 0.3s ease 0s;
+		outline: none;
+		text-align: center;
+	  }
+
+	  .text-center h4{
+		  margin-top: 1rem;
+	  }
+
+	  #call-to-action .cta-btn:hover {
+		background-color: gold;
+		box-shadow: 0px 15px 20px rgba(248, 252, 50, 0.664);
+		color: #fff;
+		transform: translateY(-7px);
+	  }
+
+	  .containers{
+		  text-align: center;
+	  }
+	  .service-header h1{
+		  font-size: medium;
+	  }
+
+	  .service-header .service-text{
+		  font-size: smaller;
+		  padding: 1rem;
+	  }
+
+	  .box-row{
+		box-shadow: 0px 10px 25px rgba(197, 197, 193, 0.664);
+		margin-bottom: 2rem;
+		padding: 2rem;
+	  }
+
+	  .why-us-section{
+		  display: flex;
+		  justify-content: space-between;
+	  }
+
+	  .why-us-right img{
+		  width: 100%;
+		  height: 200px;
+	  }
+
+	  .why-us-left h4,h1{
+		  font-size: smaller;
+		  padding: 1rem;
+	  }
+
+	  .why-us-note{
+		  font-size: smaller;
+		  padding: 1rem;
+	  }
+
+	  .why-us-note-under-img{
+		font-size: smaller;
+		padding: 1rem;
+	  }
+
+	  .why-us-btn{
+		border: 1px solid black;
+		margin-top: 2rem;
+		background: rgb(122, 117, 117);
+		width: 10rem;
+		padding: 5px;
+		color: white;
+		border: none;
+		border-radius: 45px;
+		box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+		transition: all 0.3s ease 0s;
+		cursor: pointer;
+		outline: none;
+		margin-left: 1rem;
+		font-size: small;
+	}
+
+	.why-us-btn:hover{
+		background-color: gold;
+		box-shadow: 0px 15px 20px rgba(248, 252, 50, 0.664);
+		color: #fff;
+		transform: translateY(-7px);
+	}
+
+	.last-section-content h3, .last-section-note{
+		display: none;
+	}
+
+	.features {
+		padding: 3rem;
+	}
+	
+	.footer-end{
+		text-align: center;
+		background: rgb(34, 31, 31);
+		color: white;
+	}
+
+	.footer-end .info-top{
+		padding: 3rem;
+	}
+
+	.info-link ul{
+		list-style: none;
+	}
+
+	.info-link ul li a{
+		display: block;
+		background: rgb(0, 0, 0);
+		margin-right: 2rem;
+		color: white;
+		padding: .5rem;
+	}
+
+	.bottom{
+		text-align: center;
+		background: black;
+		padding: .8rem;
+		color: ;
+	}
+
+	.our-team{
+		display: none;
+	}
+}
+
+	
+
